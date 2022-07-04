@@ -1,0 +1,23 @@
+/* Home menu */
+
+.default-menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.default-menu a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 8px 16px;
+  background: #0e83f0;
+  transition: all 300ms ease;
+}
+
+.default-menu a:hover {
+  background-color: #0d70cb;
+}

@@ -1,0 +1,26 @@
+.table-container {
+  overflow-x: auto;
+  margin: 2rem auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+th {
+  text-transform: capitalize;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 8px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
