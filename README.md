@@ -72,8 +72,8 @@ Set each variable on `.env`:
 ### Iniciando o projeto
 
 ```bash
-entre na pasta client e digite o comando no terminal yarn
-entre na pasta server e digite o comando no terminal yarn
+entre na pasta client e digite o comando no terminal npm
+entre na pasta server e digite o comando no terminal npm
 
 Você tera que abrir um segundo terminal deixando 2 em aberto
 Em primeiro lugar utilize o comando npm start dentro da pasta server
