@@ -1,4 +1,4 @@
-# Challenger Seidor
+# Challenger React
 
 ## Sobre o projeto
 
