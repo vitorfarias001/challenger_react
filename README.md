@@ -2,26 +2,24 @@
 
 ## Sobre o projeto
 
-Este protejo tem o server e o cliente, o server é uma API feita em Node.js e o cliente feito em ReactJS.
-Tem como objteivo criar uma API que realize os seguintes requisitos:
+This protection has the server and the client, the server is an API made in Node.js and the client is made in ReactJS. It aims to create an API that fulfills the following requirements:
 
-- Serviço que localiza/retorna funcionários por Nome;
-- Serviço que localiza/retorna funcionários por CPF;
-- Serviço que localiza/retorna funcionários por Cargo;
-- Serviço que localiza/retorna funcionários por Data de Cadastros;
-- Serviço que retorna funcionários agrupados por UF de Nascimento, de forma quantitativa;
-- Serviço que localiza/retorna funcionários por faixa salarial;
-- Serviço que localiza/retorna funcionários por status;
-- Serviço para incluir um novo funcionário (caso o funcionário já exista, apenas atualizar);
-- Serviço para excluir um funcionário pelo número do CPF;
+- Service that locates/returns employees by Name;
+- Service that locates/returns employees by CPF;
+- Service that locates/returns employees by Position;
+- Service that locates/returns employees by Registration Date;
+- Service that returns employees grouped by UF of Nascimento, in a quantitative way;
+- Service that locates/returns employees by salary range;
+- Service that locates/returns employees by status;
+- Service to add a new employee (if the employee already exists, just update);
+- Service to exclude an employee by CPF number;
 
-## Assim como criar um frontend que consuma os serviços criados
 
-## Sobre o server
+## About Server
 
-## Usa MongoDB
+##MongoDB
 
-MongoDB é um software de banco de dados de código aberto e multiplataforma e classificado NoSQL.
+MongoDB is an open source, cross-platform, classified NoSQL database software.
 
 - [Wikipedia](https://pt.wikipedia.org/wiki/MongoDB)
 - [MongoDB](https://www.mongodb.com/)
@@ -31,7 +29,7 @@ MongoDB é um software de banco de dados de código aberto e multiplataforma e c
 ## Configurações
 
 
-### Configuração MongoDB database
+### settings MongoDB database
 
 Configure MongoDB localmente usando os dados do [MongoDB Atlas for free](https://mongodb.com/atlas).
 
