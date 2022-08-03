@@ -37,7 +37,7 @@ export function JobTitle() {
   
   return (
     <div id="search-content">
-      <Header title={"Cargo"} />
+      <Header title={"Office"} />
       <main>
         <form>
           <input

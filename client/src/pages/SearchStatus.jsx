@@ -15,7 +15,7 @@ export function Status() {
   }
 
   function testStatus(value) {
-    const regex = /(^ATIVO$|^BLOQUEADO$|^INATIVO$)/i;
+    const regex = /(^ACTIVE$|^BLOCKED$|^INACTIVE$)/i;
     return !regex.test(value);
   }
 

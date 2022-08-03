@@ -10,9 +10,9 @@ export function Home() {
       <Header title={"Web Services"} />
       <main>
         <div className="default-menu">
-          <Link to={"/search"}>Pesquisar</Link>
-          <Link to={"/create"}>Criar/Atualizar</Link>
-          <Link to={"/delete"}>Remover</Link>
+          <Link to={"/search"}>Search</Link>
+          <Link to={"/create"}>Create/Update</Link>
+          <Link to={"/delete"}>Remove</Link>
         </div>
       </main>
     </div>

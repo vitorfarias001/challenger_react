@@ -10,7 +10,7 @@ export function DeleteEmployee() {
     try {
       const results = await deleteEmployee(pCpf);
       if (results.status == 204) {
-        setData("Funcionário excluído com sucesso");
+        setData("Employee successfully deleted");
       } else {
         setData(results.message);
       }

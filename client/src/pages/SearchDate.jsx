@@ -35,7 +35,7 @@ export function Date() {
   }, [date]);
   return (
     <div id="search-content">
-      <Header title={"A data deve estar no formato DD/MM/YYYY"} />
+      <Header title={"The date must be in DD/MM/YYYY format"} />
       <main>
         <form>
           <input

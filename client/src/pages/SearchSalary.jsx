@@ -37,7 +37,7 @@ export function Salary() {
 
   return (
     <div id="search-content">
-      <Header title={"O salário deve ter dois número após o ponto"} />
+      <Header title={"Salary must have two numbers after the dot"} />
       <main>
         <form>
           <input

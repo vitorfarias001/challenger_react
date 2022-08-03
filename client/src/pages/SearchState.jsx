@@ -35,7 +35,7 @@ export function State() {
   return (
     <div id="search-content">
       <Header
-        title={"O estado deve ser uma sígla de duas letras (MAIÚSCULAS)"}
+        title={"The state must be a two-letter acronym (UPPERCASE)"}
       />
       <main>
         <form>
@@ -51,8 +51,7 @@ export function State() {
         {typeof data === "string" ? <p> {data} </p> : ""}
         {typeof Object.values(data)[0] === "number" ? (
           <p>
-            Há {Object.values(data)[0]} funcionário(s) cadastrado(s) nesse
-            estado
+            There is {Object.values(data)[0]} employee(s) registered(s) in that state
           </p>
         ) : (
           ""
