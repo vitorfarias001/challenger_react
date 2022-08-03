@@ -26,19 +26,19 @@ MongoDB is an open source, cross-platform, classified NoSQL database software.
 - [MongoDB Atlas](https://mongodb.com/atlas)
 - [MongoDB Documentation](https://docs.mongodb.com/)
 
-## Configurações
+## Settings
 
 
 ### settings MongoDB database
 
-Configure MongoDB localmente usando os dados do [MongoDB Atlas for free](https://mongodb.com/atlas).
+Configure MongoDB locally using data from [MongoDB Atlas for free](https://mongodb.com/atlas).
 
-- Primeiro passo é criar um cluster shared seguindo o print https://prnt.sc/Nkuag7M6Hl8f
-- Necessário criar um usuario e senha a sua preferencia - https://prnt.sc/j4QRx9Rwied4
+- First step is to create a shared cluster following print https://prnt.sc/Nkuag7M6Hl8f
+- You need to create a username and password of your choice. - https://prnt.sc/j4QRx9Rwied4
 
-### Configuração de variáveis de ambiente
+### Setting environment variables
 
-Copie as variáveis do arquivo`env.example` para o`.env`:
+Copy variables from file`env.example` for the`.env`:
 
 ```bash
  .env.example
@@ -46,80 +46,88 @@ Copie as variáveis do arquivo`env.example` para o`.env`:
 
 Set each variable on `.env`:
 
-- Segue a print como exemplo  https://prnt.sc/z6bYjrebarJF que por padrão costumo rodar na porta 27017 
+- Follow the print as an example  https://prnt.sc/z6bYjrebarJF which by default I usually run on port 27017 
 
-- `MONGODB_URL` - Nessa variável você deve por a string de conexão MongoDB do [MongoDB Atlas](https://mongodb.com/atlas) você pode encontrá-la clicando em "Connect" no seu cluster.
-- `PORT` - Nessa variável você deve por a porta que será usada para levantar o sistema.
+- `MONGODB_URL` - In this variable you must put the MongoDB connection string from [MongoDB Atlas](https://mongodb.com/atlas) you can find it by clicking "Connect" in your cluster.
+
+- `PORT` - In this variable you must put the port that will be used to raise the system.
 
 
-### Conectando MongoDB
 
-- Conectando o Cluster basta agora você clicar em connect abrindo este modal - https://prnt.sc/61uTJx3DypBe no primeiro guia em verde
+### Connecting to MongoDB
+
+
+- Connecting the Cluster, you just have to click on connect opening this modal - https://prnt.sc/61uTJx3DypBe in the first tab in green
 
 ```Add You Current Ip Address ```
-- Logo após só clicar em Add Ip Adress https://prnt.sc/hMQX-vfYkebk
+- Right after just click on Add Ip Address https://prnt.sc/hMQX-vfYkebk
 
-- Agora conectar nossa aplicação clicando em ```Connect your application ``` https://prnt.sc/YDtRx0c-QG4S
+- Now connect our application by clicking ```Connect your application ``` https://prnt.sc/YDtRx0c-QG4S
 
-- Agora você vai copiar o url gerado clicando no icone de copy e este vai ser nosso mongodb url https://prnt.sc/TEyUNEyDVsF6
+- Now you will copy the generated url by clicking on the copy icon and this will be our mongodb url https://prnt.sc/TEyUNEyDVsF6
 
-- Seguindo desta manteira https://prnt.sc/_5Lkc_yuUuQw
+- following this way https://prnt.sc/_5Lkc_yuUuQw
 
-- Para finalizar onde esta escrito password você deve colocar sua senha do admin criado no cluster onde nós fizemos no passo anterior lemnbrando de remover os sinais de <> seguindo o print como exemplo https://prnt.sc/fKvwuZX3rYuk
+- To finish where it is written password you must put your admin password created in the cluster where we did in the previous step remembering to remove the <> signs following the print as an example https://prnt.sc/fKvwuZX3rYuk
 
-### Iniciando o projeto
+### Starting the project
+
 
 ```bash
-entre na pasta client e digite o comando no terminal npm
-entre na pasta server e digite o comando no terminal npm
+go into the client folder and type the command in the npm terminal
+enter the server folder and type the command in the npm terminal
 
-Você tera que abrir um segundo terminal deixando 2 em aberto
-Em primeiro lugar utilize o comando npm start dentro da pasta server
-Em seguida utilize o comando npm start dentro da pasta client
+You will have to open a second terminal leaving 2 open
+First use the npm start command inside the server folder
+Then use the npm start command inside the client folder
 
-Só isso ja ira funcionar nosso projeto
+
+Only that will work our project
 ```
 #### Scripts
-Antes de testar os scripts é necessario uma configuração com o puplate no terminal de server rodar o seguinte comando
+Before testing the scripts it is necessary to configure the puplate in the server terminal, run the following command
 
 ```
 npm run populate
 ```
 
-Logo em seguinda rodar o proximo comando 
+Then run the next command
 
 ```
 npm run test
 ```
 
-### Documentação
+### Documentation
 
 
-A documentação da API foi feita com swagger-ui você pode acessá-la na rota /api-docs
 
-Para acessar esta rota voce fazer isso tera que configurar seu localhost para 5000 disponibilizando a doc /api-docs
+The API documentation was done with swagger-ui you can access it in the /api-docs route
 
-seguindo desta forma http://localhost:5000/api-docs
+To access this route you will have to configure your localhost to 5000 providing the doc /api-docs
+
+following this way http://localhost:5000/api-docs
 
 ---
 
 
-## Este projeto usa SASS 4.14.1
+## This project uses SASS 4.14.1
 
-Para que não ocorra nenhum problema observe se a versão do node que você está usando suporta o [Sass](https://sass-lang.com/).
+So that there is no problem, check if the node version you are using supports [Sass](https://sass-lang.com/).
 
-## Páginas Implementadas
-
-Essa aplicação consome apenas as rotas que usa o verbo GET. O objetivo deveria ser cosumir todas as rotas criadas no serve.
+## Implemented Pages
 
 
-### Explicação do projeto
+This application consumes only the routes that use the GET verb. The goal should be to consume all routes created on the server.
 
-- A parte de criar funcionários é a parte mais completa , então temos que seguir algumas regras nesse preenchimento onde coloquei
-- O nosso id vai ser usado apenas para atualizar informações então só passamos id quando for atualizar e isso tambem pra data de cadastro se não ele não vai conseguir achar o usuario cadastrado.
-- No resto podemos fazer tranquilamente um usuario naquela data, preenchendo os campos da forma correta ele sempre ira criar um usuario
-na data atual.
-- Tem uma regra no cpf onde ele testa nosso cpf , ele valida o cpf se é real. 
-- Lembrando que o id e a data de cadastrado é criada automaticamente , você cadastraria um usario usando a partir do nome.
 
-Video Expliativo https://files.fm/f/x5e3w6k9c de como funciona o programa
+### Project explanation
+
+
+ The part of creating employees is the most complete part, so we have to follow some rules in this filling where I put
+- Our id will only be used to update information so we only pass the id when updating and that also for the registration date otherwise it will not be able to find the registered user.
+- For the rest, we can easily make a user on that date, filling in the fields correctly, he will always create a user
+on the current date.
+- There is a rule in the cpf where it tests our cpf , it validates the cpf if it is real.
+- Remembering that the id and the date of registration are created automatically, you would register a user using the name.
+
+Explanatory Video https://files.fm/f/x5e3w6k9c (pt-BR) of how the program works
