@@ -1,6 +1,6 @@
 # Challenger React
 
-## Sobre o projeto
+## About Project
 
 This protection has the server and the client, the server is an API made in Node.js and the client is made in ReactJS. It aims to create an API that fulfills the following requirements:
 
